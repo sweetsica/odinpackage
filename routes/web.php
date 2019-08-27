@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::group(['prefix'=>'\admin'],function(){
+    Route::get('/index','PageController@index')->name('homepage');
+});
