@@ -17,10 +17,10 @@
     <link href="{{asset('source/assets/css/metismenu.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{asset('source/assets/css/style.css')}}" rel="stylesheet" type="text/css" />
 
-    <script src="{{asset('source/asset/js/modernizr.min.js')}}"></script>
+    <script src="{{asset('source/assets/js/modernizr.min.js')}}"></script>
 
 </head>
-@yield('body')
+{{--@yield('body')--}}
     <body>
 
     <!-- Begin page -->
@@ -34,10 +34,10 @@
                 <div class="topbar-left">
                     <a href="index.html" class="logo">
                             <span>
-                                <img src="assets/images/logo.png" alt="" height="22">
+                                <img src="{{asset('source/assets/images/logo.png')}}" alt="" height="22">
                             </span>
                         <i>
-                            <img src="assets/images/logo_sm.png" alt="" height="28">
+                            <img src="{{asset('source/assets/images/logo_sm.png')}}" alt="" height="28">
                         </i>
                     </a>
                 </div>
@@ -45,7 +45,7 @@
                 <!-- User box -->
                 <div class="user-box">
                     <div class="user-img">
-                        <img src="assets/images/users/avatar-1.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-fluid">
+                        <img src="{{asset('source/assets/images/users/avatar-1.jpg')}}" alt="user-img" title="Mat Helme" class="rounded-circle img-fluid">
                     </div>
                     <h5><a href="#">Maxine Kennedy</a> </h5>
                     <p class="text-muted">Admin Head</p>
@@ -343,35 +343,35 @@
                                 <div class="slimscroll" style="max-height: 230px;">
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <div class="notify-icon"><img src="{{asset('source/assets/images/users/avatar-2.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Cristina Pride</p>
                                         <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next meeting</p>
                                     </a>
 
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="assets/images/users/avatar-3.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <div class="notify-icon"><img src="{{asset('source/assets/images/users/avatar-3.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Sam Garret</p>
                                         <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
                                     </a>
 
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <div class="notify-icon"><img src="{{asset('source/assets/images/users/avatar-4.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Karen Robinson</p>
                                         <p class="text-muted font-13 mb-0 user-msg">Wow that's great</p>
                                     </a>
 
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="assets/images/users/avatar-5.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <div class="notify-icon"><img src="{{asset('source/assets/images/users/avatar-5.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Sherry Marshall</p>
                                         <p class="text-muted font-13 mb-0 user-msg">Hi, How are you? What about our next meeting</p>
                                     </a>
 
                                     <!-- item-->
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                        <div class="notify-icon"><img src="assets/images/users/avatar-6.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                        <div class="notify-icon"><img src="{{asset('source/assets/images/users/avatar-6.jpg')}}" class="img-fluid rounded-circle" alt="" /> </div>
                                         <p class="notify-details">Shawn Millard</p>
                                         <p class="text-muted font-13 mb-0 user-msg">Yeah everything is fine</p>
                                     </a>
@@ -388,7 +388,7 @@
                         <li class="dropdown notification-list">
                             <a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" role="button"
                                aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/avatar-1.jpg" alt="user" class="rounded-circle"> <span class="ml-1">Maxine K <i class="mdi mdi-chevron-down"></i> </span>
+                                <img src="{{asset('source/assets/images/users/avatar-1.jpg')}}" alt="user" class="rounded-circle"> <span class="ml-1">Maxine K <i class="mdi mdi-chevron-down"></i> </span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
                                 <!-- item-->

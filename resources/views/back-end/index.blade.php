@@ -123,7 +123,7 @@
                                 <tbody>
                                 <tr>
                                     <td>
-                                        <img src="assets/images/users/avatar-2.jpg" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
+                                        <img src="{{asset('source/assets/images/users/avatar-2.jpg')}}" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
                                     </td>
 
                                     <td>
@@ -151,7 +151,7 @@
 
                                 <tr>
                                     <td>
-                                        <img src="assets/images/users/avatar-3.jpg" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
+                                        <img src="{{asset('source/assets/images/users/avatar-3.jpg')}}" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
                                     </td>
 
                                     <td>
@@ -178,7 +178,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="assets/images/users/avatar-4.jpg" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
+                                        <img src="{{asset('source/assets/images/users/avatar-4.jpg')}}" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
                                     </td>
 
                                     <td>
@@ -205,7 +205,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="assets/images/users/avatar-5.jpg" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
+                                        <img src="{{asset('source/assets/images/users/avatar-5.jpg')}}" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
                                     </td>
 
                                     <td>
@@ -232,7 +232,7 @@
                                 </tr>
                                 <tr>
                                     <td>
-                                        <img src="assets/images/users/avatar-6.jpg" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
+                                        <img src="{{asset('source/assets/images/users/avatar-6.jpg')}}" alt="contact-img" title="contact-img" class="rounded-circle thumb-sm" />
                                     </td>
 
                                     <td>
